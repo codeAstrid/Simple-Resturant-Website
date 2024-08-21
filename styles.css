@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    flex-wrap: nowrap;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu {
+    background-color: white; 
+    color: white;
+}
+
+.menu-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-btn:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+section {
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+#home {
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#home h1 {
+    font-size: 2em;
+    font-family: "Bungee Tint", sans-serif;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.4em;
+    line-height: 1.5;
+    margin-left: 200px; 
+    margin-right: 200px; 
+}
+
+#about {
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#about h1 {
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: "Bungee Tint", sans-serif;
+    margin-left: 200px; 
+    margin-right: 200px; 
+}
+
+#about p {
+    font-size: 1.4em;
+    line-height: 1.5;
+    margin-left: 200px; 
+    margin-right: 200px; 
+}
+#menu {
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#menu h1 {
+    font-size: 2em;
+    font-family: "Bungee Tint", sans-serif;
+    margin-bottom: 20px;
+}
+
+#menu h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#menu p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#menu .price {
+    font-weight: bold;
+}
+
+#menu h2, #menu p, #menu .price {
+    text-align: center;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.order-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+}
+
+.card:hover .order-btn {
+    display: block;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#contact h1 {
+    font-size: 2em;
+    font-family: "Bungee Tint", sans-serif;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#contact h1, #contact p {
+    text-align: center;
+}
